@@ -145,12 +145,15 @@ var Shareabouts = Shareabouts || {};
         cluster: this.options.cluster
       });
 
-      if (self.options.sidebarConfig.enabled) {
+
+      if (self.options.leafletSidebarConfig.enabled) {
         // Start Leaflet Sidebar
         (new S.LeafletSidebarView({
           el: '#leaflet-sidebar'
         })).render();
+      }
 
+      if (self.options.sidebarConfig.enabled) {
         // Start Master Legend
         (new S.LegendView({
           el: '#master-legend',

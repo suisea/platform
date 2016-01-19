@@ -92,6 +92,7 @@ var Shareabouts = Shareabouts || {};
         pagesConfig: options.pagesConfig,
         mapConfig: options.mapConfig,
         placeConfig: options.placeConfig,
+        leafletSidebarConfig: options.leafletSidebarConfig,
         sidebarConfig: options.sidebarConfig,
         activityConfig: options.activityConfig,
         userToken: options.userToken,

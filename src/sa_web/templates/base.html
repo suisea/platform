@@ -296,6 +296,7 @@
       map:        {{ config.map|as_json }},
       activity:   {{ config.activity|as_json }},
       sidebar:    {{ config.sidebar|as_json}},
+      leafletSidebar:    {{ config.leaflet_sidebar|as_json}},
       pages:      {{ pages_config_json|safe }}
     };
 
@@ -312,6 +313,7 @@
         placeTypes: S.Config.placeTypes,
         cluster: S.Config.cluster,
         sidebarConfig: S.Config.sidebar,
+        leafletSidebarConfig: S.Config.leafletSidebar,
         surveyConfig: S.Config.survey,
         supportConfig: S.Config.support,
         mapConfig: S.Config.map,
