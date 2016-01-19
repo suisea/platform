@@ -149,7 +149,8 @@ var Shareabouts = Shareabouts || {};
       if (self.options.leafletSidebarConfig.enabled) {
         // Start Leaflet Sidebar
         (new S.LeafletSidebarView({
-          el: '#leaflet-sidebar'
+          el: '#leaflet-sidebar',
+          mapView: this.mapView
         })).render();
       }
 
