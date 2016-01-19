@@ -6,15 +6,15 @@ var Shareabouts = Shareabouts || {};
     events: {},
 
     initialize: function () {
-        var self = this;
+      var self = this;
     },
 
     render: function () {
-        var self = this;
+      var self = this;
 
-        this.$el.html(Handlebars.templates['leaflet-sidebar']());
+      this.$el.html(Handlebars.templates['leaflet-sidebar'](self));
 
-        return this;
-    },
+      return this;
+    }
   });
 })(Shareabouts, jQuery, Shareabouts.Util.console);
