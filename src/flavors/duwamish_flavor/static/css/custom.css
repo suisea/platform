@@ -25,7 +25,7 @@
 
 @media only screen and (min-height: 440px) and (max-width: 60em) {
   #map {
-    height: 292px;
+    height: 100%;
   }
   #site-title a:link,
   #site-title a:visited {
@@ -48,7 +48,7 @@
 
 @media only screen and (min-height: 480px) and (max-width: 60em) {
   #map {
-    height: 332px;
+    height: 100%;
   }
   #site-title a:link,
   #site-title a:visited {
