@@ -411,6 +411,8 @@ def api(request, path, **kwargs):
         'cookies': cookies
     })
 
+    print(response)
+
     if place_was_created(request, path, response):
         send_place_created_notifications(request, response)
 
